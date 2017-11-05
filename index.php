@@ -21,7 +21,7 @@ class dbConn{
         }
         catch (PDOException $e) {
             //Output error - would normally log this to error file rather than output to user.
-            echo "Connection Error: " . $e->getMessage();
+            echo "Connection Error: " . $e->getMessage()."<br>"."<br>";
         }
 
     }
